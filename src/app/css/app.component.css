@@ -3,15 +3,26 @@
   -ms-flex-line-pack: center;
       align-content: center;
   vertical-align: middle;
-  margin: 10%;
   position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #3f5efb;
+  background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
 }
 
 .projeto {
   color: black;
-  width: 500px !important;
+  width: 300px;
   height: 200px;
-  border: 2px solid black;
+  border: 5px solid white;
+  -webkit-box-shadow: -2px 2px 5px 2px gray;
+          box-shadow: -2px 2px 5px 2px gray;
+  border-radius: 20%;
+}
+
+.projeto:hover {
+  -webkit-box-shadow: -12px 2px 52px 2px red;
+          box-shadow: -12px 2px 52px 2px red;
 }
 
 .project-list {
@@ -19,22 +30,44 @@
   -ms-flex-line-pack: center;
       align-content: center;
   vertical-align: middle;
-  margin: 10%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 10% auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 #vue {
   background-image: url("./Vue.jpg");
   background-size: cover;
-  text-shadow: 2px 2px 2px 2px white;
+  text-shadow: -2px 2px 2px white;
 }
 
 #react {
   background-image: url("./React.png");
   background-size: cover;
-  text-shadow: 2px 2px 2px 2px white;
+  text-shadow: -2px 2px 2px white;
+}
+
+#html {
+  background-image: url("./html.png");
+  background-size: cover;
+  text-shadow: -2px 2px 2px white;
+}
+
+a {
+  text-decoration: none;
+  text-color: white;
+}
+
+h2 {
+  padding-top: 10%;
+}
+
+h1 {
+  padding-top: 50px;
+  text-shadow: -2px 2px 2px white;
 }
 /*# sourceMappingURL=app.component.css.map */
