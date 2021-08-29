@@ -1,0 +1,64 @@
+$center : center
+$black-border : 5px solid white
+$text-shadow : -2px 2px 2px white
+$shadow : -2px 2px 5px 2px gray
+
+@mixin theme($theme: center)
+    text-align: $theme
+    align-content: $theme
+    vertical-align: middle
+    position: relative
+
+.main-container
+    @include theme
+    width: 100%
+    height: 100vh
+    background: rgb(63,94,251)
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)
+    
+    
+.projeto
+    color: black
+    width: 300px
+    height: 200px
+    border: $black-border 
+    box-shadow: $shadow
+    border-radius: 20%
+    
+.projeto:hover
+    box-shadow: -12px 2px 52px 2px red
+
+    
+.project-list
+    @include theme($theme: center)
+    display: flex
+    margin:  10% auto
+    justify-content: space-around
+
+    
+#vue
+    
+    background-image: url("./Vue.jpg")
+    background-size: cover
+    text-shadow: $text-shadow
+
+#react
+    background-image: url("./React.png")
+    background-size: cover
+    text-shadow: $text-shadow
+
+#html
+    background-image: url("./html.png")
+    background-size: cover
+    text-shadow: $text-shadow
+
+a
+    text-decoration: none
+    text-color: white
+
+h2
+    padding-top: 10%
+
+h1
+    padding-top: 50px
+    text-shadow: $text-shadow
