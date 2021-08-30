@@ -20,6 +20,7 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "angular": "^1.8.2",
     "bundle": "^2.1.0",
     "ngx-useful-swiper": "^10.0.1",
     "rxjs": "~6.6.0",
