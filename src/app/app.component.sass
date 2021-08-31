@@ -1,7 +1,9 @@
 $center : center
 $black-border : 5px solid white
-$text-shadow : -2px 2px 2px white
-$shadow : -2px 2px 5px 2px gray
+$text-shadow : 0 0 13px #d0ff00, 0 0 15px #ff0000
+$shadow : -2px 2px 5px gray
+$radius : 0%
+$text: white
 
 @mixin theme($theme: center)
     text-align: $theme
@@ -18,15 +20,16 @@ $shadow : -2px 2px 5px 2px gray
     
     
 .projeto
-    color: black
+    color: $text
     width: 300px
     height: 200px
     border: $black-border 
     box-shadow: $shadow
-    border-radius: 20%
+    border-radius: $radius
     
 .projeto:hover
     box-shadow: -12px 2px 52px 2px red
+    transform: scale(2)
 
     
 .project-list
@@ -45,13 +48,22 @@ $shadow : -2px 2px 5px 2px gray
     background-size: cover
     text-shadow: $text-shadow
 
+    img
+        width: 99%
+        height: 99%
+        border-radius: $radius
+
+    a
+        position: relative
+        top: -150px
+
 #html
     background-size: cover
     text-shadow: $text-shadow
 
 a
     text-decoration: none
-    text-color: white
+    color: $text
 
 h2
     padding-top: 10%
@@ -59,3 +71,4 @@ h2
 h1
     padding-top: 50px
     text-shadow: $text-shadow
+    color: $text
