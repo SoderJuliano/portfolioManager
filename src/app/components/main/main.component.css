@@ -520,3 +520,30 @@ Welcome Page
         transform: rotate(30deg) translate(0px, 0px);
     }
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+    .page-title{
+        margin: 10% !important;
+    }
+    .container{
+        width: 100% !important;
+    }
+    .hexagon-menu{
+        justify-content: center !important;
+        display: block !important;
+        width: 100% !important;
+    }
+    #exitem{
+        position: relative !important;  
+        margin-top: 10% !important;
+        left: 18% !important;
+        display: block;
+        justify-content: center !important;
+    }
+    .hexagon-item{
+        margin: 0 auto !important;
+    }
+}
