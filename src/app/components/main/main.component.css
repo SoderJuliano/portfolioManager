@@ -311,6 +311,7 @@ Start Styling
 
 .page-title {
     margin-bottom: 75px;
+    text-align: center;
 }
 
     .page-title img {
@@ -537,7 +538,7 @@ Welcome Page
         width: 100% !important;
     }
     #exitem{
-        position: relative !important;  
+        position: relative !important;
         margin-top: 10% !important;
         left: 18% !important;
         display: block;
