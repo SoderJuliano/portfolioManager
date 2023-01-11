@@ -1,34 +1,30 @@
 <main class="site-wrapper">
-    <div class="pt-table desktop-768">
-        <div class="pt-tablecell page-home relative" style="background-image: url(../../../assets/mountains.png);
-        background-position: center;
-        background-size: cover;">
-            <div class="overlay"></div>
+  <div class="main-div" style="background-image: url(../../../assets/mountains.png);">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+          <div class="page-title">
+            <p class="mt20">
+              Juliano Soder personal WebPage
+            </p>
+            <p class="mt20">
+              There are some of the personal project I'm current working or I've worked once.
+            </p>
+          </div>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                        <div class="page-title  home text-center">
-                            <p class="mt20"><span class="heading-page">
-                                Juliano Soder personal WebPage
-                            </span></p>
-                            <p class="mt20" style="color: white;">
-                                There are some of the personal project I'm current working or I've worked once. 
-                            </p>
-                        </div>
-
-                        <div id="exitem" class="hexagon-menu clear">
-                            <app-hexagon [title]="'More About me!'" [link]="'https://www.linkedin.com/in/julianosoder/'"></app-hexagon>
-                            <app-hexagon [title]="'Contact me'" (click)="myFunction()"></app-hexagon>
-                            <app-hexagon [title]="'MY VUE.JS PORTFOLIO'" [link]="'https://julianosodermeugeradoronline.netlify.app'"></app-hexagon>
-                            <app-hexagon [title]="'Pokedex'" [link]="'https://soder-pokedex.netlify.app/'"></app-hexagon>
-                            <app-hexagon [title]="'REACT POKEMON MINIGAME'" [link]="'https://julianosoderpokemonbattle.netlify.app'"></app-hexagon>
-                            <app-hexagon [title]="'PHP site project'" [link]="'http://parcelas.negocio.tk/'"></app-hexagon>
-                            <app-hexagon [title]="'Want to see more?'" [link]="'https://github.com/SoderJuliano'"></app-hexagon>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="hexagon-menu">
+            <app-hexagon [title]="'More About me!'" [link]="'https://www.linkedin.com/in/julianosoder/'"></app-hexagon>
+            <app-hexagon [title]="'Contact me'" (click)="myFunction()"></app-hexagon>
+            <app-hexagon [title]="'MY VUE.JS PORTFOLIO'"
+              [link]="'https://julianosodermeugeradoronline.netlify.app'"></app-hexagon>
+            <app-hexagon [title]="'Pokedex'" [link]="'https://soder-pokedex.netlify.app/'"></app-hexagon>
+            <app-hexagon [title]="'REACT POKEMON MINIGAME'"
+              [link]="'https://julianosoderpokemonbattle.netlify.app'"></app-hexagon>
+            <app-hexagon [title]="'PHP site project'" [link]="'http://parcelas.negocio.tk/'"></app-hexagon>
+            <app-hexagon [title]="'Want to see more?'" [link]="'https://github.com/SoderJuliano'"></app-hexagon>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </main>
