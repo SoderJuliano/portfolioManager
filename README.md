@@ -1,6 +1,7 @@
 # MyAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
+This project is my angular portfolio project. Here are some examples of my projects and my contacts.
 
 ## Development server
 
